@@ -128,11 +128,6 @@ html{
   transition: var(--transition);
 }
 
-html.dark{
-  --primary-color: #fff;
-  --second-color: #333;
-}
-
 .toggle{
   background: var(--clr-black-2);
   color: var(--clr-white-1);
@@ -183,6 +178,7 @@ body{
   height: 65px;
   width: 3px;
   transform-origin: bottom center;
+  transition: var(--transition);
 }
 
 .hour{
@@ -235,11 +231,11 @@ body{
 }
 
 .circle{
-  background: var(--clr-black-2);
+  background: var(--clr-grey-14);
   color: var(--clr-white-1);
   border-radius: 50%;
-  height: 18px;
-  width: 18px;
+  height: 20px;
+  width: 20px;
   display: inline-flex;
   align-items: center;
   justify-content: center;

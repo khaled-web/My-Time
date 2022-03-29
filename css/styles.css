@@ -231,7 +231,7 @@ body{
 }
 
 .circle{
-  background: var(--clr-grey-14);
+  background: var(--clr-primary-4);
   color: var(--clr-white-1);
   border-radius: 50%;
   height: 20px;

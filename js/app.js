@@ -58,7 +58,7 @@
 
   timeEl.innerHTML = `${hoursForClock} : ${minutes<10? `0${minutes}` : minutes} ${ampm}`
 
-  dateEl.innerHTML = `${days[day]}, ${months[month]} <span class="circle">${date}</span>`
+  dateEl.innerHTML = `${days[day+1]}, ${months[month]} <span class="circle">${date}</span>`
 
  }
 
